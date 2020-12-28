@@ -16,7 +16,7 @@ weatherForm.addEventListener('submit', (event) => {
       }
   
       messageOne.textContent = data.location;
-      messageTwo.textContent = `Description - ${data.forecast.description}, temperature: ${data.forecast.temperature}, feels like: ${data.forecast.feelslike}`;
+      messageTwo.textContent = `Description - ${data.forecast.description}, temperature: ${data.forecast.temperature}, feels like: ${data.forecast.feelslike}, the humidity is: ${data.forecast.humidity}`;
     })
   });
 });
